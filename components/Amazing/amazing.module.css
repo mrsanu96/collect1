@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa&family=Poppins:wght@400;500;600;700;800&family=Ubuntu:wght@400;700&display=swap");
+
+.amazingcontainer {
+  display: flex;
+  align-items: center;
+  background-image: url(https://i.imgur.com/GNX0gWV.png);
+  padding-top: 12%;
+  padding-bottom: 11%;
+  background-size: cover;
+  flex-direction: column;
+}
+
+.contentcontainer {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto; */
+  max-width: 1150px;
+}
+
+.amrow {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  height: 100%;
+  align-items: center;
+  margin-bottom: 41px;
+  position: relative;
+}
+
+.amtext h2 {
+  display: flex;
+  text-align: start;
+  margin-top: 10px;
+  font-size: 43px;
+  line-height: 51px;
+  font-family: "Poppins", sans-serif;
+  color: #130052;
+  font-weight: 600;
+  text-align: start;
+  padding-right: 52%;
+  position: relative;
+}
+
+.amimages {
+  position: relative;
+}
+
+.start {
+  position: absolute;
+  bottom: -297px;
+  right: 19px;
+}
+
+.marvel {
+  position: absolute;
+  bottom: -338px;
+  right: 343px;
+}
+
+.amstar {
+  position: absolute;
+  top: -212px;
+  left: -556px;
+}
+
+.yellowcir {
+  position: absolute;
+  top: 335px;
+  left: -225px;
+}
+
+.sign {
+  position: absolute;
+  top: 16px;
+  left: 242px;
+}
+
+.counterarea h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  color: #130052;
+}
+.counterarea {
+  display: flex;
+  margin-top: 40px;
+  border-top: 1px solid #cccccc;
+  padding-top: 35px;
+}
+
+.counterbox {
+  margin-right: 40px;
+  min-width: 75px;
+}
+.counterarea span {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 33.9px;
+}
+.counter {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+
+.countertext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.imgctrl {
+  position: absolute;
+  top: -56px;
+}

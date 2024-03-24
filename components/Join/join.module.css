@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa&family=Poppins:wght@400;500;600;700;800&family=Ubuntu:wght@400;700&display=swap");
+.jcontainer {
+  display: flex;
+  width: 100%;
+  padding: 5%;
+}
+.jimgcontainer {
+  display: flex;
+  align-items: center;
+  width: 1294px;
+  height: 398px;
+  background-image: url(https://i.imgur.com/AmlGQzv.png);
+  margin-right: auto;
+  margin-left: auto;
+}
+.getstart {
+  font-family: "Poppins", sans-serif;
+  font-size: 55px;
+  line-height: 66px;
+  font-weight: 600;
+  width: 60%;
+  margin: 0 auto;
+  color: #130052;
+}
+.blueLink {
+  color: blue; /* Set the color to blue */
+  text-decoration: none; /* Remove underline */
+}
+
+.blueLink:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+.getsub {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 30px 0;
+  color:#6f6c78;
+}
+
+.bgimg {
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.jtextarea {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}

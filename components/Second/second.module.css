@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa&family=Poppins:wght@400;500;600;700;800&family=Ubuntu:wght@400;700&display=swap");
+
+.secondContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://i.imgur.com/WvED8nT.png");
+    height: auto;
+    margin-bottom: 35px;
+    padding: 3%;
+    background-size: cover;
+    position: relative;
+  }
+  .imageSection {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 5%;
+  }
+  .image {
+    width: auto;
+    height: 250px;
+  }
+  
+  .star1 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .text1 {
+    display: flex;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 13.96px;
+    color: #6f6c78;
+    margin-top: 2%;
+  }
+  .text2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 17%;
+    padding-left: 17%;
+  }
+  
+  .heroheading {
+    width: 100%;
+    max-width: 1080px;
+    min-width: 1080px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 78px;
+    padding: 28px 0 34px;
+    color: #130052;
+  }
+  .shimmer {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.1);
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#69b756),
+      to(#130052),
+      color-stop(0.5, #fff)
+    );
+    background: -moz-gradient(
+      linear,
+      left top,
+      right top,
+      from(#69b756),
+      to(#130052),
+      color-stop(0.5, #fff)
+    );
+    -webkit-background-size: 125px 100%;
+    -moz-background-size: 125px 100%;
+    background-size: 125px 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: #130052;
+    font-family: "Poppins", sans-serif;
+    font-size: 65px;
+    position: relative;
+  }
+  .downbtn {
+    margin-top: 25px;
+  }
+  .jsscrolltrigger {
+    margin: 0;
+    position: absolute;
+    top: 92%;
+    left: 48%;
+    animation-name: upDown;
+    animation-iteration-count: infinite;
+    animation-duration: 800ms;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    height: 65px;
+    width: 65px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    z-index: 99;
+    filter: drop-shadow(0px 6px 12px rgba(10, 4, 60, 0.1));
+    flex-direction: column;
+  }
+  
+  #down-arrow img {
+    height: 30px;
+  }
+  
+  @keyframes upDown {
+    0% {
+      margin-top: 0px;
+    }
+  
+    100% {
+      margin-top: 20px;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      top: 50%;
+      left: 70%;
+      letter-spacing: 5px;
+    }
+  
+    50% {
+      top: 50%;
+      left: 40%;
+      letter-spacing: 2px;
+    }
+  
+    100% {
+      top: 50%;
+      left: 50%;
+      letter-spacing: 0px;
+    }
+  }
+  @-moz-keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+  
+    100% {
+      background-position: top right;
+    }
+  }
+  
+  @-webkit-keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+  
+    100% {
+      background-position: top right;
+    }
+  }
+  
+  @-o-keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+  
+    100% {
+      background-position: top right;
+    }
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+  
+    100% {
+      background-position: top right;
+    }
+  }
+  
+  .textSection {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 100%;
+    margin-left: 50px;
+    margin-right: 20%;
+    flex-direction: column;
+  }
+  
+  .para {
+    text-align: justify;
+    font-size: 18px;
+    font-family: "Titillium Web", sans-serif;
+  }
+  
+  .heading {
+    font-size: 35px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+  }
+  
+  
+  
+  .herodot1 {
+    position: absolute;
+    right: 75px;
+    bottom: 50px;
+  }
+  .herodot2 {
+    left: 75px;
+    position: absolute;
+  }
+  .herolineshape {
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: auto;
+  }
+  
+  
+  .heronet1{
+    right: 0;
+    position: absolute;
+    top: 1px;
+  }
+  
+  .heronet2{
+    position: absolute;
+    left: 240px;
+    top: 100px;
+    z-index: 0;
+  }
+  
+  .twobtns {
+    display: flex;
+    flex-direction: row;
+    margin: 0 6px;
+  }
+  
+  .explore {
+    color: #fff !important;
+    background-color: #234074;
+    border: 2px solid #234074;
+    display: inline-flex;
+    cursor: pointer;
+    outline: none;
+    text-transform: capitalize;
+    z-index: 99;
+    padding: 10px;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 95px;
+    justify-content: center;
+    margin: 0 6px;
+  }
+  .explore:hover {
+    color: var(--heading-color) !important;
+    background-color: #fff;
+    border: 2px solid #e6e8ec;
+  }
+  .learnmore {
+    color: var(--heading-color) !important;
+    background-color: transparent;
+    border: 2px solid #e6e8ec;
+    display: inline-flex;
+    cursor: pointer;
+    outline: none;
+    text-transform: capitalize;
+    z-index: 99;
+    padding: 12.5px 37px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 95px;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 0 6px;
+  }
+  
+  .learnmore:hover {
+    color: #fff !important;
+    background-color: #234074;
+    border: 2px solid #234074;
+  }
+  
+  @media only screen and (max-width: 1420px) {
+    .imageSection {
+      display: flex;
+      margin-left: 0%;
+      margin-right: 5%;
+    }
+    .textSection {
+      display: flex;
+      margin-top: auto;
+      margin-bottom: auto;
+      max-width: 100%;
+      margin-left: 30px;
+      margin-right: 5%;
+      flex-direction: column;
+    }
+  }
+  
+  @media only screen and (max-width: 1050px) {
+    .secondContainer {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 55px;
+      justify-content: space-between;
+      background: #f3f3f3;
+      height: auto;
+      margin-bottom: 10px;
+      padding: 3%;
+    }
+    .image {
+      width: auto;
+      height: 200px;
+    }
+    .imageSection {
+      display: flex;
+      margin-top: 20px;
+    }
+    .textSection {
+      display: flex;
+      margin-top: 20px;
+      margin-bottom: auto;
+      max-width: 100%;
+      margin-left: 30px;
+      margin-right: 30px;
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .text1 {
+      display: flex;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      line-height: 13.96px;
+      color: #6f6c78;
+      margin-top: 2%;
+    }
+
+    .heroheading {
+      width: 100%;
+      max-width: auto;
+      min-width: auto;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 40px;
+      padding: 2px 0 3px;
+      color: #130052;
+    }
+
+    .shimmer {
+      margin-left: 25px;
+      margin-right: 25px;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.1);
+      background: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(#69b756),
+        to(#130052),
+        color-stop(0.5, #fff)
+      );
+      background: -moz-gradient(
+        linear,
+        left top,
+        right top,
+        from(#69b756),
+        to(#130052),
+        color-stop(0.5, #fff)
+      );
+      -webkit-background-size: 125px 100%;
+      -moz-background-size: 125px 100%;
+      background-size: 125px 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      -webkit-animation-name: shimmer;
+      -moz-animation-name: shimmer;
+      animation-name: shimmer;
+      -webkit-animation-duration: 3s;
+      -moz-animation-duration: 3s;
+      animation-duration: 3s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-color: #130052;
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      position: relative;
+    }
+    .text2 {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding-right: 17%;
+      padding-left: 17%;
+    }
+
+    .herolineshape {
+     display: none;
+    }
+
+    .heronet1{
+      right: 0;
+      position: absolute;
+    }
+}
+  

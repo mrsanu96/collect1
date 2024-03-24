@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+.fourthcontainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+  }
+  
+  .mainlogo {
+    position: absolute;
+    top: 350px;
+    left: 458px;
+  }
+  .textart {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0;
+    color: #130052;
+  }
+  .imagesheading {
+    display: flex;
+    align-items: center;
+    /* width: 100%;
+    max-width: 1000px;
+    min-width: 1000px; */
+    font-family: "Poppins", sans-serif;
+    padding: 28px 0 34px;
+    position: relative;
+  }
+  .circle1 {
+    position: absolute;
+    left: 20px;
+    top: 180px;
+  }
+  .circle2 {
+    position: absolute;
+    left: 220px;
+    top: 325px;
+  }
+  .circle3 {
+    position: absolute;
+    left: -35px;
+    top: 455px;
+  }
+  .circle4 {
+    position: absolute;
+    left: 185px;
+    top: 525px;
+  }
+  
+  .circle5 {
+    position: absolute;
+    right: 220px;
+    top: 525px;
+  }
+  .circle6 {
+    position: absolute;
+    right: -65px;
+    top: 405px;
+  }
+  
+  .circle7 {
+    position: absolute;
+    top: 150px;
+    right: 10px;
+  }
+  
+  .dot1 {
+    position: absolute;
+    bottom: 250px;
+    left: 350px;
+  }
+  
+  .dot2 {
+    position: absolute;
+    top: 280px;
+    left: 150px;
+    -webkit-animation-name: floating;
+    animation-name: floating;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  
+  .dot3 {
+    position: absolute;
+    bottom: 250px;
+    right: 250px;
+    -webkit-animation-name: floating;
+    animation-name: floating;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  
+  .dot4 {
+    position: absolute;
+    top: 350px;
+    right: 400px;
+    -webkit-animation-name: floating;
+    animation-name: floating;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  
+  @-webkit-keyframes floating {
+    0% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      -webkit-transform: translate(0, 8px);
+      transform: translate(0, 8px);
+    }
+  }
+  
+  @keyframes floating {
+    0% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      -webkit-transform: translate(0, 8px);
+      transform: translate(0, 8px);
+    }
+  }
+  
+  .floating_animation2 {
+    -webkit-animation-name: floating2;
+    animation-name: floating2;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  
+  @-webkit-keyframes floating2 {
+    0% {
+      -webkit-transform: translate(0, 0px);
+      transform: translate(0, 0px);
+    }
+  
+    50% {
+      -webkit-transform: translate(8px, 0px);
+      transform: translate(8px, 0px);
+    }
+  }
+  
+  @keyframes floating2 {
+    0% {
+      -webkit-transform: translate(0, 0px);
+      transform: translate(0, 0px);
+    }
+  
+    50% {
+      -webkit-transform: translate(8px, 0px);
+      transform: translate(8px, 0px);
+    }
+  }
+  
+  .floating_animation3 {
+    -webkit-animation-name: floating3;
+    animation-name: floating3;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+  
+  @-webkit-keyframes floating3 {
+    from {
+      -webkit-transform: translate(0, 0px);
+      transform: translate(0, 0px);
+    }
+  
+    65% {
+      -webkit-transform: translate(0, 15px);
+      transform: translate(0, 15px);
+    }
+  
+    to {
+      -webkit-transform: translate(0, 0px);
+      transform: translate(0, 0px);
+    }
+  }
+  
+  @keyframes floating3 {
+    from {
+      -webkit-transform: translate(0, 0px);
+      transform: translate(0, 0px);
+    }
+  
+    65% {
+      -webkit-transform: translate(0, 15px);
+      transform: translate(0, 15px);
+    }
+  
+    to {
+      -webkit-transform: translate(0, 0px);
+      transform: translate(0, 0px);
+    }
+  }
+  @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .fourthcontainer {
+      display: flex;
+      width: auto;
+      align-items: center;
+      flex-direction: column;
+      height: auto;
+      position: relative;
+    }
+    .grid1{
+      width: 300px;
+      justify-content: center;
+    }
+
+    .imagesheading {
+      align-items: center;
+      font-family: "Poppins", sans-serif;
+      padding: 28px 0 34px;
+      position: relative;
+    }
+
+    .circle1 {
+      position: absolute;
+      left: 20px;
+      top: 10px;
+      height: 75px;
+    }
+  }

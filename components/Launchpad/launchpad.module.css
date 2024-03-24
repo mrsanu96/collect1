@@ -1,0 +1,241 @@
+@import "@fontsource/titan-one";
+@import "@fontsource/inter";
+
+.collectionsContainer {
+  display: flex;
+  margin-bottom: 5%;
+  justify-content: center;
+  }
+
+.popularCollection {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.leftSide h3 {
+  font-family: "Titan One", cursive;
+  font-size: 40px;
+  color: #ffffff;
+  padding-right: 25px;
+  padding-left: 15px;
+}
+
+.filterOptions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid transparent;
+  border-color: #ffffff;
+  border-radius: 25px;
+  margin-right: 12%;
+}
+
+.filterOptions p {
+  font-family: "Inter", cursive;
+  cursor: pointer;
+  color: #234074;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+
+.filterOptions p.active {
+  background-color: #234074;
+  padding: 10px 15px;
+  color: #ffffff;
+}
+
+.seeAllButton {
+  margin-right: 10%;
+}
+
+.seeAllButton button {
+  border: 0.25px solid transparent;
+  border-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.cardsSection {
+  display: flex;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #0f1e3b;
+  width: 300px;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  margin-left: 5px;
+  position: relative;
+  flex-direction: column;
+  border-radius: 17px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 0 0;
+}
+
+.cardText {
+  font-family: "Inter", cursive;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.carddet {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: 5%;
+  justify-content: space-between;
+}
+
+.cardLive {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: 5%;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.live {
+  display: flex;
+  background-color: #1c1326;
+  color: #00d181;
+  padding: 8px 40px;
+  border-radius: 5px;
+  align-items: center;
+  font-size: 16px;
+  text-align: center;
+}
+
+.Icon {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  margin-right: 2px;
+}
+
+.calendar-icon {
+  display: flex;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.collectionName {
+  font-family: "Inter", cursive;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f8f7f8;
+  text-align: left;
+}
+
+.calendar-icon {
+  display: flex;
+  text-align: left;
+  margin-left: 25px;
+}
+
+.category {
+  font-size: 12px;
+  font-family: "Inter", cursive;
+  color: #3151de;
+}
+
+.blackCircle {
+  position: absolute;
+  left: 5px;
+  font-size: 25px;
+  top: 5px;
+  color: black;
+}
+
+.mintButton {
+  display: none;
+  width: auto;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+.card:hover .mintButton {
+  display: inline-block;
+}
+
+.card:hover .live {
+  background-color: #234074;
+  cursor: pointer;
+}
+
+.pricegroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pricetag {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.priceshwo {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.itmtag {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.itmshow {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.minttag {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.mintshow {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+}
