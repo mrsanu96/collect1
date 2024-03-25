@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
 import Image from "next/image";
-import { DiJqueryLogo } from "react-icons/di";
 //----IMPORT ICON
 import { MdNotifications } from "react-icons/md";
 import { BsSearch } from "react-icons/bs";
@@ -10,7 +9,6 @@ import { useRouter } from "next/router";
 
 //INTERNAL IMPORT
 import Style from "./NavBar.module.css";
-import Collections from "../../pages/Collection";
 import { Discover, HelpCenter, Notification, Profile, SideBar,  } from "./index";
 import { Button, Error } from "../componentsindex";
 import images from "../../img";
